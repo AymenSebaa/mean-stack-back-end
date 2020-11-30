@@ -1,6 +1,6 @@
 {
     "development": {
-        "PORT": 3000,
+        "PORT": 80,
         "MONGODB_URI": "mongodb+srv://gimpo:gimpo@cluster0.xkwgp.mongodb.net/gimpoDB?retryWrites=true&w=majority",
         "JWT_SECRET": "SECRET#123",
         "JWT_EXP": "60m"
