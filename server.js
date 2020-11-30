@@ -13,7 +13,7 @@ var app = express();
 
 // middleware
 app.use(bodyPrser.json());
-app.use(cors()); 
+app.use(cors({origin: 'http://192.168.1.12:4200'})); 
 app.use(express.static(path.join(__dirname, '/public')));
 app.use(passport.initialize());
 app.use('/api', indexRouter);
